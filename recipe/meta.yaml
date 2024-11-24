@@ -1,6 +1,5 @@
 {% set version = '0.1.2' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-tidyplots
@@ -13,8 +12,7 @@ source:
   sha256: f59c5898155b15e1e74345d1b977f560a433b1c7b5da6fb3f3434ed5bed7abdc
 
 build:
-  merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
