@@ -1,4 +1,4 @@
-{% set version = '0.1.2' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidyplots_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidyplots/tidyplots_{{ version }}.tar.gz
-  sha256: f59c5898155b15e1e74345d1b977f560a433b1c7b5da6fb3f3434ed5bed7abdc
+  sha256: 36fea4cf949821ed58917bc771632e2da3a87d7ee05d2ba0a9a1556b2cf7131f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -77,9 +77,7 @@ test:
 about:
   home: https://github.com/jbengler/tidyplots, https://jbengler.github.io/tidyplots/
   license: MIT
-  summary: The goal of 'tidyplots' is to streamline the creation of publication-ready plots for
-    scientific papers. It allows to gradually add, remove and adjust plot components
-    using a consistent and intuitive syntax.
+  summary: The goal of 'tidyplots' is to streamline the creation of publication-ready plots for scientific papers. It allows to gradually add, remove and adjust plot components using a consistent and intuitive syntax.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
