@@ -33,14 +33,14 @@ requirements:
     - r-dplyr
     - r-forcats
     - r-ggbeeswarm
-    - r-ggplot2
+    - r-ggplot2 >=3.5.0
     - r-ggpubr
     - r-ggrastr
     - r-ggrepel
     - r-glue
     - r-htmltools
     - r-lifecycle
-    - r-patchwork
+    - r-patchwork >=1.2.0
     - r-purrr
     - r-rlang
     - r-scales
@@ -54,14 +54,14 @@ requirements:
     - r-dplyr
     - r-forcats
     - r-ggbeeswarm
-    - r-ggplot2
+    - r-ggplot2 >=3.5.0
     - r-ggpubr
     - r-ggrastr
     - r-ggrepel
     - r-glue
     - r-htmltools
     - r-lifecycle
-    - r-patchwork
+    - r-patchwork >=1.2.0
     - r-purrr
     - r-rlang
     - r-scales
