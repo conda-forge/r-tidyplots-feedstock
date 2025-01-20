@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidyplots_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidyplots/tidyplots_{{ version }}.tar.gz
-  sha256: 36fea4cf949821ed58917bc771632e2da3a87d7ee05d2ba0a9a1556b2cf7131f
+  sha256: 30f2d69cb89953cfcb0253216d37c00fcbfd6519e2c2fb742e1a9467824e1f78
 
 build:
   number: 0
@@ -33,14 +33,14 @@ requirements:
     - r-dplyr
     - r-forcats
     - r-ggbeeswarm
-    - r-ggplot2
+    - r-ggplot2 >=3.5.0
     - r-ggpubr
     - r-ggrastr
     - r-ggrepel
     - r-glue
     - r-htmltools
     - r-lifecycle
-    - r-patchwork
+    - r-patchwork >=1.2.0
     - r-purrr
     - r-rlang
     - r-scales
@@ -54,14 +54,14 @@ requirements:
     - r-dplyr
     - r-forcats
     - r-ggbeeswarm
-    - r-ggplot2
+    - r-ggplot2 >=3.5.0
     - r-ggpubr
     - r-ggrastr
     - r-ggrepel
     - r-glue
     - r-htmltools
     - r-lifecycle
-    - r-patchwork
+    - r-patchwork >=1.2.0
     - r-purrr
     - r-rlang
     - r-scales
