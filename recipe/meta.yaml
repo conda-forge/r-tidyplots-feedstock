@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidyplots_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidyplots/tidyplots_{{ version }}.tar.gz
-  sha256: 30f2d69cb89953cfcb0253216d37c00fcbfd6519e2c2fb742e1a9467824e1f78
+  sha256: 723ee487051403ec36f6f3875871ddaec5db1817217f7beb54b05a24760bc2cd
 
 build:
   number: 0
